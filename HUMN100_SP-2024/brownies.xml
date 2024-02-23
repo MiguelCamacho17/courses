@@ -15,7 +15,7 @@
       </fileDesc>
   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
-      <body>
+      
          <head>The ORIGINAL Baker's Chocolate Brownie Recipe</head>
             <p>https://thestoriedrecipe.com/classic-bakers-chocolate-fudgy-brownie-recipe/</p>
          
@@ -32,10 +32,18 @@
          <item>2 teaspoon vanilla</item></list>
          </div>
          
-         <div>
+         
             <head>DIRECTIONS</head>
-         <list/>
-         </div>
-      </body>
+         <item>Preheat oven to 350.</item>
+         <item>Grease a 9×13″ pan with butter or cooking spray. Make sure oven rack is in the middle of the oven.</item>
+         <item>In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler). Allow to cool slightly.</item>
+         <item>Measure flour, salt, and baking powder into another small bowl.</item>
+         In larger mixing bowl, beat eggs thoroughly. <note>A whisk is fine.</note> Gradually add sugar.
+         Blend chocolate mixture and vanilla into egg/sugar mixture.
+         Add flour mixture, stir well.
+         Spread in the greased 9×13″ pan and bake for 25-30 minutes.
+         Cool and cut into 24 squares.
+         
+      
   </text>
 </TEI>
