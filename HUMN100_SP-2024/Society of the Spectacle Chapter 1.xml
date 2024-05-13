@@ -492,6 +492,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/MiguelCamacho17/courses/main/HUMN100_SP-2024/Society%20of%20the%20Spectacle%20Chapter%201.xml?rs_annotation_20240513112226409",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-05-13T15:22:26.409Z",
+	"dcterms:modified": "2024-05-13T15:22:26.409Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/MiguelCamacho17",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Miguel Camacho"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/MiguelCamacho17/courses/main/HUMN100_SP-2024/Society%20of%20the%20Spectacle%20Chapter%201.xml?rs_annotation_20240513112226409#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/MiguelCamacho17/courses/main/HUMN100_SP-2024/Society%20of%20the%20Spectacle%20Chapter%201.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/MiguelCamacho17/courses/main/HUMN100_SP-2024/Society%20of%20the%20Spectacle%20Chapter%201.xml?rs_annotation_20240513112226409#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[15]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q7575076",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
       <body>
@@ -504,7 +583,7 @@
 	   <div>
 		 <head>Chapter I. Separation Perfected</head>
 		<p>
-			1 In societies where modern conditions of production pre- </p><p>vail, all of life presents itself as an immense accumulation of </p><p>spectacles. Everything that was directly lived has moved away </p><p>into a representation.</p><p/><p>2 The images detached from every aspect of life fuse in a </p><p>common stream in which the unity of this life can no longer be </p><p>reestablished. Reality considered partially unfolds, in its own </p><p>general unity, as a pseudo-world apart, an object of mere con- </p><p>templation. The specialization of images of the world is com- </p><p>pleted in the world of the autonomous image, where the liar </p><p>has lied to himself. The spectacle in general, as the concrete </p><p>inversion of life, is the autonomous movement of the non-</p><p>living. </p><p>3 The spectacle presents itself simultaneously as all of soci- </p><p>ety, as part of society, and as instrument of unification. As a </p><p>part of society it is specifically the sector which concentrates </p><p>all gazing and all consciousness. Due to the very fact that this </p><p>sector is separate, it is the common ground of the deceived </p><p>gaze and of false consciousness, andthe unification it achieves </p><p>is nothing but an official language of generalized separation. </p><p>4 The spectacle is not a collection of images, but a social </p><p>relation among people, mediated by images. </p><p>5 The spectacle cannot be understood as an abuse of the </p><p>world of vision, as a product of the techniques of mass dis- </p><p>semination of images. It is, rather, a <term cert="high" evaluate="all" xml:lang="German" xml:space="default"><rs key="world view" ref="http://www.wikidata.org/entity/Q49447">Weltanschauung</rs></term> which </p><p>has become actual, materially translated. It is a world vision
+			1 In societies where modern conditions of production pre- </p><p>vail, all of life presents itself as an immense accumulation of </p><p>spectacles. Everything that was directly lived has moved away </p><p>into a representation.</p><p/><p>2 The images detached from every aspect of life fuse in a </p><p>common stream in which the unity of this life can no longer be </p><p>reestablished. Reality considered partially unfolds, in its own </p><p>general unity, as a pseudo-world apart, an object of mere con- </p><p>templation. The specialization of images of the world is com- </p><p>pleted in the world of the autonomous image, where the liar </p><p>has lied to himself. The spectacle in general, as the concrete </p><p>inversion of life, is the autonomous movement of the non-</p><p>living. </p><p>3 The <rs key="spectacle" ref="http://www.wikidata.org/entity/Q7575076">spectacle</rs> presents itself simultaneously as all of soci- </p><p>ety, as part of society, and as instrument of unification. As a </p><p>part of society it is specifically the sector which concentrates </p><p>all gazing and all consciousness. Due to the very fact that this </p><p>sector is separate, it is the common ground of the deceived </p><p>gaze and of false consciousness, andthe unification it achieves </p><p>is nothing but an official language of generalized separation. </p><p>4 The spectacle is not a collection of images, but a social </p><p>relation among people, mediated by images. </p><p>5 The spectacle cannot be understood as an abuse of the </p><p>world of vision, as a product of the techniques of mass dis- </p><p>semination of images. It is, rather, a <term cert="high" evaluate="all" xml:lang="German" xml:space="default"><rs key="world view" ref="http://www.wikidata.org/entity/Q49447">Weltanschauung</rs></term> which </p><p>has become actual, materially translated. It is a world vision
 </p><p>which has become objectified. </p><p>6 The spectacle, grasped in its totality, is both the result and </p><p>the project of the exsisting mode of production. It is not a sup- </p><p> 
 plement to the real world, an additional decoration. It is the </p><p>heart of the unrealism of the real society. In all its specific </p><p>forms, as information or propaganda, as advertisement or direct </p><p>entertainment consumption, the spectacle is the present model </p><p>of socially dominant life. It is the omnipresent affirmation of
 </p><p>the choice already made in production and its corollary con- </p><p>sumption. The spectacle's form and content are identically </p><p>the total justification of the existing system's conditions and </p><p>goals. The spectacle is also the permanent presence of this </p><p>justification, since it occupies the main part of the time lived
